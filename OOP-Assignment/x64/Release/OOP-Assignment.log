@@ -1,5 +1,38 @@
-﻿  Game.cpp
-C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Game.cpp(145,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Game.cpp(171): error C2102: '&' requires l-value
-C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Game.cpp(176): error C2102: '&' requires l-value
-C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Game.cpp(180): error C2102: '&' requires l-value
+﻿LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+Game.obj : error LNK2001: unresolved external symbol SDL_DestroyTexture
+Game.obj : error LNK2001: unresolved external symbol SDL_RenderCopy
+Game.obj : error LNK2001: unresolved external symbol SDL_RenderClear
+Game.obj : error LNK2001: unresolved external symbol Mix_VolumeChunk
+Game.obj : error LNK2001: unresolved external symbol SDL_Delay
+Game.obj : error LNK2001: unresolved external symbol SDL_LoadBMP_RW
+Game.obj : error LNK2001: unresolved external symbol TTF_RenderText_Solid
+Game.obj : error LNK2001: unresolved external symbol SDL_GetMouseState
+Game.obj : error LNK2001: unresolved external symbol SDL_HasIntersection
+Game.obj : error LNK2001: unresolved external symbol Mix_PlayChannelTimed
+Game.obj : error LNK2001: unresolved external symbol SDL_PollEvent
+Game.obj : error LNK2001: unresolved external symbol SDL_GetTicks
+Game.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
+Game.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+Game.obj : error LNK2001: unresolved external symbol SDL_RenderPresent
+Game.obj : error LNK2001: unresolved external symbol Mix_FreeChunk
+Game.obj : error LNK2001: unresolved external symbol SDL_RWFromFile
+Game.obj : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
+Game.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+Game.obj : error LNK2001: unresolved external symbol Mix_LoadWAV_RW
+Manager.obj : error LNK2001: unresolved external symbol SDL_Log
+Manager.obj : error LNK2001: unresolved external symbol Mix_OpenAudio
+Manager.obj : error LNK2001: unresolved external symbol SDL_DestroyRenderer
+Manager.obj : error LNK2001: unresolved external symbol SDL_Init
+Manager.obj : error LNK2001: unresolved external symbol SDL_DestroyWindow
+Manager.obj : error LNK2001: unresolved external symbol SDL_GetError
+Manager.obj : error LNK2001: unresolved external symbol SDL_Quit
+Manager.obj : error LNK2001: unresolved external symbol TTF_Init
+Manager.obj : error LNK2001: unresolved external symbol TTF_OpenFont
+Manager.obj : error LNK2001: unresolved external symbol SDL_CreateRenderer
+Manager.obj : error LNK2001: unresolved external symbol SDL_CreateWindow
+Manager.obj : error LNK2001: unresolved external symbol Mix_LoadMUS
+Menu.obj : error LNK2001: unresolved external symbol Mix_VolumeMusic
+Menu.obj : error LNK2001: unresolved external symbol SDL_GetKeyboardState
+Menu.obj : error LNK2001: unresolved external symbol Mix_PlayMusic
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+C:\Users\Macaw\source\repos\OOP-Assignment\x64\Release\OOP-Assignment.exe : fatal error LNK1120: 36 unresolved externals

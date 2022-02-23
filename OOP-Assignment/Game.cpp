@@ -168,16 +168,19 @@ void Game::Render()
     // Render each meteor in vector array
     for (size_t i = 0; i < asteroids.size(); i++)
     {
-        SDL_RenderCopyEx(m_renderer, asteroids[i]->getTexture(), nullptr, &asteroids[i]->getBody().toRect(), 0, nullptr, SDL_FLIP_NONE);
+        SDL_Rect asteroid = asteroids[i]->getBody().toRect();
+        SDL_RenderCopyEx(m_renderer, asteroids[i]->getTexture(), nullptr, &asteroid, 0, nullptr, SDL_FLIP_NONE);
     }
     // Render each bullet in vector array
     for (size_t i = 0; i < m_ship.getBullet().size(); i++)
     {
-        SDL_RenderCopyEx(m_renderer, m_ship.getBullet()[i]->getTexture() , nullptr, &m_ship.getBullet()[i]->getBody().toRect(), m_ship.getBullet()[i]->getRotation() + this->FindDirectionToMouse() - 90.f, nullptr, SDL_FLIP_NONE);
+        SDL_Rect shipBullet = m_ship.getBullet()[i]->getBody().toRect();
+        SDL_RenderCopyEx(m_renderer, m_ship.getBullet()[i]->getTexture() , nullptr, &shipBullet, m_ship.getBullet()[i]->getRotation() + this->FindDirectionToMouse() - 90.f, nullptr, SDL_FLIP_NONE);
     }
 
     // Render ship
-    SDL_RenderCopyEx(m_renderer, m_ship.getTexture(), nullptr, &m_ship.getBody().toRect(), m_ship.getRotation() + this->FindDirectionToMouse() - 90.f, nullptr, SDL_FLIP_NONE);
+    SDL_Rect ship = m_ship.getBody().toRect();
+    SDL_RenderCopyEx(m_renderer, m_ship.getTexture(), nullptr, &ship, m_ship.getRotation() + this->FindDirectionToMouse() - 90.f, nullptr, SDL_FLIP_NONE);
 
     // Render score text
     SDL_RenderCopy(m_renderer, m_scoreTexture, nullptr, &m_scoreRect);
