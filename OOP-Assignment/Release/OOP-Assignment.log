@@ -1,0 +1,16 @@
+﻿  Asteroid.cpp
+C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Entity.h(4,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  Bullet.cpp
+C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Entity.h(4,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  Entity.cpp
+C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Entity.h(4,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  Game.cpp
+C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Game.cpp(4,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  Main.cpp
+C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Manager.h(2,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  Manager.cpp
+C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Manager.h(2,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  Menu.cpp
+C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Menu.h(3,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  Player.cpp
+C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Entity.h(4,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
