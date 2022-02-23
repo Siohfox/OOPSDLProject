@@ -1,0 +1,5 @@
+﻿  Game.cpp
+C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Game.cpp(145,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Game.cpp(171): error C2102: '&' requires l-value
+C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Game.cpp(176): error C2102: '&' requires l-value
+C:\Users\Macaw\source\repos\OOP-Assignment\OOP-Assignment\Game.cpp(180): error C2102: '&' requires l-value
